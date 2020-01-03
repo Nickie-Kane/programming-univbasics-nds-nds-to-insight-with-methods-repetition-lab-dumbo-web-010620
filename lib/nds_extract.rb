@@ -67,7 +67,7 @@ def total_gross(source)
     puts 'total'
     puts total
     puts 'grand Total'
-    puts total_gross += total
+    return total_gross += total
     puts 'next person'
 
   director_index += 1   

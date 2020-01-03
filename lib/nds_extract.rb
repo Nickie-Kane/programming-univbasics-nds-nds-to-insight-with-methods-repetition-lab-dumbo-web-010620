@@ -57,7 +57,7 @@ def total_gross(source)
       puts source[director_index][:name]
       puts 'movie' 
       puts index 
-      puts total = source[director_index][:movies][index][:worldwide_gross]
+      puts total += source[director_index][:movies][index][:worldwide_gross]
       
       
       

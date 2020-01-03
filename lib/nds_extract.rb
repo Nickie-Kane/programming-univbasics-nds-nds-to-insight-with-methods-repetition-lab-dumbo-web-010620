@@ -62,7 +62,7 @@ def total_gross(source)
       
       
     index += 1
-    # binding.pry
+    binding.pry
     end
     puts 'total'
     puts total

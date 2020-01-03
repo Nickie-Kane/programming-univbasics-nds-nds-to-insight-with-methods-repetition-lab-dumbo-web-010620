@@ -53,7 +53,7 @@ def total_gross(source)
     # puts"-"
     index = 0
     total = 0 
-    while index < source[director_index][:movies][index].length do
+    while index < source[director_index][:movies].length do
       puts source[director_index][:name]
       puts 'movie' 
       puts index 
